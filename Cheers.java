@@ -2,6 +2,7 @@
 public class Cheers {
         public static void main(String[] args) {
 	   String name= args[0];
+           name= name.toUpperCase();
            int cheers=Integer.parseInt(args[1]);
            String anLetters = "AEFHILMNORSX";
           for(int j=0;j<name.length();j++) {
